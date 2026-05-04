@@ -43,11 +43,11 @@ public class PlayerController : MonoBehaviour
             isMovingRight = true;
         }
 
-        if (moveDirection.x > 0)
+        if (moveDirection.x > 0f)
         {
             spriteRenderer.flipX = false;
         }
-        else if (moveDirection.x < 0)
+        else if (moveDirection.x < 0f)
         {
             spriteRenderer.flipX = true;
         }

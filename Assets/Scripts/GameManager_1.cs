@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class GameManager_1 : MonoBehaviour
 {
     public enum Choice { None, Scissors, Rock, Paper }
 
